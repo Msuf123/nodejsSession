@@ -1,12 +1,20 @@
 body{
     background-color:grey;
 }
+.loginPart{
+  
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+}
 .loginSection{
     display: flex;
     flex-direction: column;
     align-items: center;
     
     width: max-content;
+    
 
 }
 .loginSection input{
